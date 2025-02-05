@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: linear-gradient(to right, #141e30, #243b55);
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+#canvas-container {
+    width: 100vw;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+}
+
+canvas {
+    display: block;
+}
+
+.content {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+}
